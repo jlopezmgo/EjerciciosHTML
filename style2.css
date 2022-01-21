@@ -1,0 +1,21 @@
+div, h1{
+        
+    line-height: 1.5;
+
+    color: brown;
+    background-color: lightblue;
+
+    font-family: "Gill", sans-serif;
+    font-size: 14px;
+    
+}
+
+@media all and (min-width: 600px){
+    h2{      
+        background-color: green;   
+    }
+    
+    ul{
+        background-color: orange;  
+    }
+}

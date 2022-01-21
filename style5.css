@@ -1,0 +1,124 @@
+div, h1{
+    
+    line-height: 1.5;
+
+    color: brown;
+    background-color: lightblue;
+
+    font-family: "Gill", sans-serif;
+    font-size: 14px;
+    
+}
+
+.formulario{    
+    display: flex;
+    flex-flow: column wrap;   
+    border-style:solid;
+    border-color: black;   
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px; 
+    width: 200px;
+}
+
+.boton{
+    display: flex;
+    margin: auto; 
+}
+
+.boton:hover{    
+    cursor:pointer;
+}
+
+.label{
+    display: flex;
+    position:relative;
+    right: 80px; 
+}
+
+.input{
+    display: flex;
+    position:relative;
+    left: 80px;  
+    bottom: 20px;      
+}
+
+.container{    
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    column-gap: 50px;
+    justify-content: space-around;
+    font-family: Serif;
+    font-size: 18px;
+    align-content:flex-start;
+}
+
+.menu{    
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: space-around;      
+    background-color: black;   
+    color: white;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+.leftColumn{    
+    display: flex; /* or inline-flex */
+    flex-flow: column wrap;
+    justify-content: space-around;
+    background-color: lightblue;   
+    color: brown;
+    font-family: Serif;
+    font-size: 18px;
+    height:200px;
+}
+
+.containedLink{
+    background-color: lightblue;
+    color:black;
+}
+
+.containedLink:hover{
+    background-color: red
+}
+
+.centralColumn{    
+    display: flex; /* or inline-flex */
+    flex-flow: column wrap;
+    background-color: lightblue;   
+    color: white;
+    font-family: Serif;
+    font-size: 18px;
+    align-items: center;  
+    width:1000px; 
+}
+
+.contained:hover{
+    justify-content: space-around;
+    display: flex; /* or inline-flex */
+    column-gap: 500px; 
+    background-color: lightblue;   
+    color: brown;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+@media all and (min-width: 600px){
+    h2{ 
+        font-size: 14px;     
+        background-color: lightgreen;   
+    }
+    
+    ul{
+        background-color: orange;  
+    }   
+}
+
+@media all and (min-width: 1900px){
+    .centralColumn{
+        width:auto;
+    }
+}
+

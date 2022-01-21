@@ -1,0 +1,82 @@
+div, h1{
+    
+    line-height: 1.5;
+
+    color: brown;
+    background-color: lightblue;
+
+    font-family: "Gill", sans-serif;
+    font-size: 14px;
+    
+}
+
+.container{    
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    column-gap: 50px;
+    justify-content: space-around;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+.menu{    
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 400px;   
+    background-color: black;   
+    color: white;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+.leftColumn{    
+    display: flex; /* or inline-flex */
+    flex-flow: column wrap;
+    justify-content: space-around;
+    background-color: lightblue;   
+    color: brown;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+.containedLink{
+    background-color: lightblue;
+    color:black;
+}
+
+.containedLink:hover{
+    background-color: red
+}
+
+.centralColumn{    
+    display: flex; /* or inline-flex */
+    flex-flow: column wrap;
+    background-color: black;   
+    color: white;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+.contained:hover{
+    justify-content: space-around;
+    display: flex; /* or inline-flex */
+    column-gap: 500px; 
+    background-color: lightblue;   
+    color: brown;
+    font-family: Serif;
+    font-size: 18px;
+}
+
+@media all and (min-width: 600px){
+    h2{ 
+        font-size: 14px;     
+        background-color: lightgreen;   
+    }
+    
+    ul{
+        background-color: orange;  
+    }
+}
+
+
